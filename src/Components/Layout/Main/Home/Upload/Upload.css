@@ -1,0 +1,197 @@
+.Upload {
+	width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 150px;
+    margin-top: 50px;
+    color: rgb(69 69 69);
+
+
+}
+.Upload .welcome_container {
+    width: 450px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Upload .welcome_container .welcome_text {
+    margin-left: 58px;
+}
+
+.Upload .welcome_container div h2 {
+    margin-top: 10px;
+    width: 400px;
+    line-height: 90%;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.Upload .welcome_container div p {
+    margin-top: 15px;
+    font-size: 22px;
+}
+.Upload .welcome_container .example img {
+    width: 350px;
+    height: 350px;
+    border-radius: 35px;
+}
+.Upload .upload_container {
+    background-color: white;
+    width: 432px;
+    height: 348px;
+    position: relative;
+    top: 200px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 2px rgba(83, 83, 83, 0.185);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer !important;
+}
+.upload_area_title {
+    font-size: 25px !important;
+    position: relative;
+    bottom: 50px;
+    font-weight: 500;
+}
+.Upload .upload_container:hover {
+    outline: 3px dashed #0F70E6;
+    cursor: pointer;
+}
+
+.Upload .upload_container_drag {
+    outline: 3px dashed #0F70E6;
+}
+.Upload .upload_container p {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+}
+.Upload .upload_container button {
+    padding: 10px 30px;
+    font-size: 25px;
+    background-color: #0F70E6;
+    color: white;
+    border-radius: 45px;
+    font-weight: 500;
+}
+.Upload .upload_container button:hover {
+    background-color: rgb(18 125 255);
+}
+
+/* 
+.upload_input {
+    position: relative;
+    width: 100%;
+    height: 100%;
+} */
+
+#upload_input{
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    top: 0;
+    right: 0;
+    z-index: 99;
+    opacity: 0;
+    -moz-opacity: 0;
+    cursor: pointer;
+    font-size:50px;
+    align-items: center;
+
+}
+
+
+@media only screen and (max-width: 1300px) {
+    .Upload .upload_container {
+        width: 50%;
+    }
+
+    .Upload .welcome_container {
+        width: 50%;
+    }
+  }
+
+@media only screen and (max-width: 850px) {
+    .Upload {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 250px;
+        align-items: center;
+        gap: 0px;
+    }
+    .Upload .upload_container {
+        top: 100px;
+        width: 60%;
+        justify-content: space-around;
+        gap: 50px;
+    }
+    .Upload .upload_container button{
+        position: relative;
+        top: 35px;
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+
+    .Upload .upload_area_title {
+        position: relative;
+        top: 40px;
+    }
+    .Upload .upload_container p {
+        position: relative;
+        bottom: 40px;
+    }
+    .Upload .welcome_container .example img {
+        margin-top: 100px;
+        width: 450px;
+        height: auto;
+        object-fit: contain;
+    }
+    /* .Upload .welcome_container {
+        width: 50%;
+    } */
+
+    .Upload .welcome_container div h2 {
+        width: 300px;
+        line-height: 90%;
+        font-size: 40px;
+    }
+  }
+
+
+  @media only screen and (max-width: 850px) {
+    .Upload {
+        margin-bottom: 120px;
+    }
+    .Upload .welcome_container div h2 {
+        width: 300px;
+        line-height: 90%;
+        font-size: 30px;
+    }
+
+    .Upload .welcome_container .example img {
+        margin-top: -50px;
+    }
+    .Upload .upload_container {
+        top: 30px;
+        text-align: center;
+        width: 300px;
+        justify-content: space-around;
+        gap: 50px;
+    }
+    
+    .Upload .welcome_container div p {
+        font-size: 18px;
+    }
+
+    .Upload .welcome_container {
+    width: 280px;
+    }
+}

@@ -1,0 +1,30 @@
+.Header {
+	width: 80vw;
+    margin: 0 auto;
+}
+
+
+
+@media only screen and (max-width: 850px) {
+    .Header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Header img {
+        width: 250px;
+        margin-bottom: 25px;
+    }
+  }
+
+@media only screen and (max-width: 550px) {
+    .Header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Header img {
+        width: 60%;
+        margin-bottom: 25px;
+    }
+  }

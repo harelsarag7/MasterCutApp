@@ -1,0 +1,35 @@
+.Layout {
+	width: 100%;
+	/* position: relative; */
+	min-height: 100%;
+}
+
+.vectors {
+	position: relative;
+}
+
+.vectors .vector1 {
+	position: absolute;
+	right: 10%;
+	top: 240px;
+	width: 20%;
+	z-index: -1;
+}
+.vectors .vector2 {
+	position: absolute;
+	left: 11%;
+	top: 850px;
+	width: 20%;
+	z-index: -1;
+}
+
+
+@media only screen and (max-width: 650px) {
+	.vectors .vector2 {
+		position: absolute;
+		left: 12%;
+		top: 1200px;
+		z-index: -1;
+	}
+	
+  }
