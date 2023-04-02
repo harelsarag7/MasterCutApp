@@ -42,8 +42,8 @@ function Upload(): JSX.Element {
                     <img src={welcomeExample} alt="" />
                 </div>
                 <div className="welcome_text">
-                    <h2>Remove Image Background</h2>
-                    <p>100% Automatically and Free</p>
+                    <h2>Free Image Background Removal</h2>
+                    <p>with 100% automation</p>
                 </div>
             </div>
 
