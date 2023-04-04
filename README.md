@@ -1,12 +1,12 @@
-# Master Cut App
+# <img width="300px" src="https://user-images.githubusercontent.com/112413505/229739644-88f07997-9273-43b5-8195-7206e05aee97.png" />
 Master Cut is a web application designed to help users remove backgrounds from their images quickly and easily. With Master Cut, users can upload an image or photo and download a PNG file without the background.
 
 # Features
-<strong>Background Removal:</strong> Master Cut's primary feature is the ability to remove the background from an image. Users can upload an image, select the "Remove Background" option, and download the edited PNG file.
+• <strong>Background Removal:</strong> Master Cut's primary feature is the ability to remove the background from an image. Users can upload an image, select the "Remove Background" option, and download the edited PNG file.
 
-Preview Mode: Users can toggle between preview mode and original mode to see the difference between the original image and the edited image.
+• <strong>Preview Mode:</strong> Users can toggle between preview mode and original mode to see the difference between the original image and the edited image.
 
-Adjustment Options: Master Cut offers a few adjustment options for fine-tuning the background removal. Users can adjust the brush size and hardness for precise edits.
+• <strong>Adjustment Options:</strong> Master Cut offers a few adjustment options for fine-tuning the background removal. Users can adjust the brush size and hardness for precise edits.
 
 Save and Share: Once the user is satisfied with their edited image, they can save it and share it on social media platforms.
 
