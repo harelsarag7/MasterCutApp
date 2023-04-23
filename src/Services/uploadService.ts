@@ -16,13 +16,14 @@ class UploadService {
             "Access-Control-Origin": "*",
           },
         };
-        const url = `http://localhost:4000/upload/add`;
+        const url = `https://master-cut-server.herokuapp.com/upload/add`;
       
         try {
           const response = await axios.post(url, formData, header);
           console.log(response.data);
-          window.localStorage.setItem("originalSrc", "https://master-cut.s3.us-east-1.amazonaws.com/" + response.data.originial)
+          window.localStorage.setItem("originalSrc", "https://master-cut.s3.us-east-1.amazonaws.com/" + response.data.original)
           window.localStorage.setItem("removedSrc", "https://master-cut.s3.us-east-1.amazonaws.com/" + response.data.removed)
+          
           return response.data;
         } catch (e) {
           console.error(e);
