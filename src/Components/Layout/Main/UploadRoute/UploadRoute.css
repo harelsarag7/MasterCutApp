@@ -24,7 +24,7 @@
 
 .UploadRoute .image {
     max-width: 580px;
-    width: 60%;
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: center;
