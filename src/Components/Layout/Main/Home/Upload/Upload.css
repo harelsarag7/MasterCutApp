@@ -63,8 +63,9 @@
 }
 .Upload .upload_container:hover {
     outline: 3px dashed #0F70E6;
+    outline-offset: -3px; 
     cursor: pointer;
-}
+  }
 
 .Upload .upload_container_drag {
     outline: 3px dashed #0F70E6;
